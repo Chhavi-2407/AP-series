@@ -1,0 +1,118 @@
+========================================
+HTTP vs EXPRESS.JS PROJECT
+COMMANDS USED
+========================================
+
+1. CHECK NODE.JS VERSION
+
+Command:
+node -v
+
+Purpose:
+Checks whether Node.js is installed and displays its version.
+
+
+2. CHECK NPM VERSION
+
+Command:
+npm -v
+
+Purpose:
+Checks whether NPM (Node Package Manager) is installed and displays its version.
+
+
+3. CREATE PROJECT FOLDER
+
+Command:
+mkdir http-vs-express
+
+Purpose:
+Creates a new folder named http-vs-express for our project.
+
+
+4. MOVE INTO PROJECT FOLDER
+
+Command:
+cd http-vs-express
+
+Purpose:
+Changes the current directory to our project folder.
+
+
+5. INITIALIZE THE PROJECT
+
+Command:
+npm init -y
+
+Purpose:
+Creates a package.json file with default settings.
+This file stores project information and dependencies.
+
+
+6. INSTALL EXPRESS.JS
+
+Command:
+npm install express
+
+Purpose:
+Installs Express.js in our project so that we can build a server using Express.
+
+
+7. RUN THE HTTP SERVER
+
+Command:
+node server.js
+
+Purpose:
+Executes server.js using Node.js and starts our HTTP server.
+
+Expected output:
+HTTP server running at http://localhost:3000
+
+Browser URLs to test:
+http://localhost:3000
+http://localhost:3000/about
+http://localhost:3000/api/students
+http://localhost:3000/wrong
+
+
+8. STOP THE RUNNING SERVER
+
+Command:
+Ctrl + C
+
+Purpose:
+Stops the server running in the terminal.
+
+Note:
+On Mac, press Control + C, not Command + C.
+
+
+9. RUN THE EXPRESS SERVER
+
+Command:
+node app.js
+
+Purpose:
+Executes app.js and starts our Express server.
+
+Expected output:
+Express server running at http://localhost:3000
+
+Browser URLs to test:
+http://localhost:3000
+http://localhost:3000/about
+http://localhost:3000/api/students
+http://localhost:3000/wrong
+
+
+========================================
+IMPORTANT NOTES
+========================================
+
+- Run the project setup commands only when creating the project for the first time.
+- Run npm install express before starting the Express server if Express is not installed.
+- Stop the HTTP server before starting the Express server because both use port 3000.
+- Run commands in the VS Code terminal.
+- Keep server.js and app.js inside the http-vs-express project folder.
+========================================
